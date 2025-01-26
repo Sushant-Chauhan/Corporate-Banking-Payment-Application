@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unit of Work
  
 This project implements a Unit of Work (UOW) pattern in Go, providing a convenient way to encapsulate a set of database operations within a single transaction when the Repository pattern is used.
@@ -22,3 +23,6 @@ UOW := uow.NewUnitOfWork(db)
 5. Perform database operations within a single transaction by calling the Do method:
  
 If an error occurs, the transaction is rolled back and the error is returned. Otherwise, the transaction is committed, and nil is returned.
+=======
+# Corporate-Banking-Payment-Application
+>>>>>>> 23a379af0d44c3c4e741bcf517743e5efecf2e2a
