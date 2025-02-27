@@ -17,15 +17,17 @@ import "github.com/sesaquecruz/go-unit-of-work/uow"
  
 ```go
 UOW := uow.NewUnitOfWork(db)
-
-
-
-
-DB DIAGRAM LINK : https://dbdiagram.io/d/6718af2197a66db9a3f75c8e
 ```
 4. Register the repositories using the Register method:
  
 5. Perform database operations within a single transaction by calling the Do method:
  
 If an error occurs, the transaction is rolled back and the error is returned. Otherwise, the transaction is committed, and nil is returned.
+
+-------------------------------------------------------------------------------------------------------
+
+
+DB DIAGRAM LINK : https://dbdiagram.io/d/6718af2197a66db9a3f75c8e
+
+
 
