@@ -17,6 +17,11 @@ import "github.com/sesaquecruz/go-unit-of-work/uow"
  
 ```go
 UOW := uow.NewUnitOfWork(db)
+
+
+
+
+DB DIAGRAM LINK : https://dbdiagram.io/d/6718af2197a66db9a3f75c8e
 ```
 4. Register the repositories using the Register method:
  
